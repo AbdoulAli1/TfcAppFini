@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Couleur de fond */
+    background-image: url('../images/IMG_4172.jpg'); /* Image via chemin relatif */
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: height;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: rgba(30, 30, 30, 0.9); /* Fond légèrement transparent */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Couleur du bouton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #45a049; /* Couleur au survol */
+}
+.google-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0650aa; /* Couleur du bouton Google */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
