@@ -1,0 +1,193 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f3f4f6;
+    color: #333;
+}
+
+/* Logo Style */
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: linear-gradient(90deg, #004080, #0066cc);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.user-info {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f0f0f0;
+}
+
+.logout-btn {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background: #d32f2f;
+}
+
+.notifications h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.notification-item {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparence sur chaque notification */
+    color: white; /* Texte blanc */
+}
+
+.notification-item p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.notification-date {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+.container {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card a {
+    display: inline-block;
+    background: #004080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.card a:hover {
+    background: #0066cc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #004080;
+    color: white;
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 3rem;
+    color: #004080;
+    margin-bottom: 15px;
+}
+
+.icon:hover {
+    color: #0066cc;
+}
+
+.empty-state {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.search-container input {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #004080;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+.search-container button {
+    background: #004080;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #0066cc;
+}
